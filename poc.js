@@ -1,5 +1,5 @@
 document.documentElement.innerHTML = '';
-document.title = "WEBSITE BLOCKED BY ILHAM ADITYA";
+document.title = "WEBSITE BLOCKED BY NYAWIT";
 
 var body = document.body;
 body.style.backgroundColor = '#000000'; 
