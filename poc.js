@@ -20,7 +20,7 @@ container.style.padding = '20px';
 
 // Menambahkan Gambar Kucing (Gunakan URL gambar online agar pasti muncul)
 var img = document.createElement('img');
-img.src = 'image/wiwok.png'; 
+img.src = 'https://poc-tan-eta.vercel.app/image/wiwok.png';
 img.style.width = '300px';
 img.style.borderRadius = '5px';
 img.style.marginBottom = '20px';
@@ -55,7 +55,7 @@ container.appendChild(footer);
 
 // Audio Player (Autoplay mungkin diblokir browser, jadi munculkan controllernya)
 var audio = document.createElement('audio');
-audio.src = 'song/wiwok.mp3'; // Ganti dengan URL musik kamu
+audio.src = 'https://poc-tan-eta.vercel.app/song/wiwok.mp3'; // Ganti dengan URL musik kamu
 audio.controls = true;
 audio.autoplay = true;
 audio.style.marginTop = '20px';
